@@ -1,20 +1,19 @@
-# Memory Game Project
+Welcome to the MEMORY GAME!
 
-## Table of Contents
+This is a really fun game!
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+To complete the game you have to click and match eight pairs of cards.
 
-## Instructions
+You are presented with a grid consisting of 16 blank cards. On the other side of each card is a symbol and in total there are eight pairs of symbols. Your objective is to match the pairs by clicking on the cards. You can only turn over two cards at a time - if they match then they will turn green and stay revealed. Otherwise they will flash red and then go blank again. You can continue clicking to reveal the symbols until you have matched every pair.
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+The game will record your every move and you will be informed of your total number of moves at the end of the game.
 
-To get started, open `js/app.js` and start building out the app's functionality
+A timer also starts from your first move and you will also be informed about the total time you took to complete once you finish the game.
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+There is also a star rating. If you can complete the game in less than 32 moves then you will be awarded three stars. If you can complete the game in less than 48 moves then you'll be awarded two stars. Otherwise you'll only get one star.
 
-## Contributing
+There is also a refresh button if you want to completely start again. However this will also reshuffle the cards.
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests
+Once you successfully finish a game then a modal will appear giving you the aforementioned info. If the game isn't completed within an hour then it will automatically be stopped and restarted.
 
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+Please enjoy playing the Memory Game! 🤞😃
