@@ -10,7 +10,7 @@ The game will record your every move and you will be informed of your total numb
 
 A timer also starts from your first move and you will also be informed about the total time you took to complete once you finish the game.
 
-There is also a star rating. If you can complete the game in less than 32 moves then you will be awarded three stars ⭐️⭐️⭐️. If you can complete the game in less than 48 moves then you'll be awarded two stars ⭐️⭐️. Otherwise you'll only get one star ⭐️.
+There is also a star rating. If you can complete the game in less than 32 moves then you will be awarded three stars ⭐️⭐️⭐️. If you can complete the game in more than 32 moves but less than 48 moves then you'll be awarded two stars ⭐️⭐️. Otherwise you'll only get one star ⭐️.
 
 There is also a refresh button  if you want to completely start again. However this will also reshuffle the cards.
 
