@@ -1,3 +1,6 @@
+'use strict';
+
+
 const cardList = [
     'fa fa-diamond', 
     'fa fa-paper-plane-o', 
@@ -16,25 +19,6 @@ const cardList = [
     'fa fa-paper-plane-o', 
     'fa fa-cube'
 ];
-
-let clickedCards = [];
-let match = [];
-
-let cardHtml;
-let cardInnerHtml;
-let cardTarget;
-let modal;
-let openModal;
-let timer;
-let shuffledCards;
-let launched = false;
-
-let count = 0;
-let secs = 0;
-let mins = 0;
-let hrs = 0;
-let stars_count = 0;
-
 const closeModal = document.querySelector('.modal__close');
 const deck = document.querySelector('.deck');
 const starz = document.querySelector('.stars');
@@ -46,7 +30,11 @@ const start_again = document.querySelector('.restart');
 const play_again = document.querySelector('.button-close');
 
 
-//shuffle the list of cards using the provided "shuffle" method below
+let clickedCards = [], match = [], launched = false, count = 0, secs = 0, mins = 0, hrs = 0, stars_count = 0;
+let cardHtml, cardInnerHtml, cardTarget, modal, openModal, timer, shuffledCards;
+
+
+// The Fisher-Yates shuffle: this algorithm shuffles the list of cards
 function shuffle(array) {
     let currentIndex = array.length, temporaryValue, randomIndex;
 
@@ -60,7 +48,8 @@ function shuffle(array) {
     return array; 
 }
 
-//Display the cards on the page - loop through each card and create its HTML - add each card's HTML to the page
+
+// This displays the cards on the deck
 function displayCard() {
     shuffledCards = shuffle(cardList);
     for (let i = 0; i < shuffledCards.length; i++) {
@@ -75,14 +64,14 @@ function displayCard() {
 window.onload = displayCard()
 
 
-//set up the event listener for a card.
+// Event listener - listens for a card to be clicked
 function reEventListener() {
     deck.addEventListener('click', reDisplaySymbol);
 }
 reEventListener()
 
 
-//display the card's symbol
+// This displays a card's symbol after it's clicked
 function reDisplaySymbol() {
     cardTarget = event.target;
     if (cardTarget.classList == 'card') {
@@ -95,18 +84,20 @@ function reDisplaySymbol() {
 }
 
 
+// This reveals the stars after the player' first click
 function starry() {
     starz.classList.remove('invisibility');
 }
 
 
+// This hides the stars after the game is reset
 function notstarry() {
     starz.classList.add('invisibility');
 }
 
 
-//add the card to a *list* of "open" cards
-//if the list already has another card, check to see if the two cards match
+// This pushes a clicked card to the clickedCards array
+// If clickedCards contains two cards then a check is made to see if they match and corresponding action
 function addCardToArray() {
     clickedCards.push(event.target);
     if (clickedCards.length === 2) {
@@ -121,6 +112,7 @@ function addCardToArray() {
 }
 
 
+// This reveals a summary modal after all pairs are matched
 function reModal() {
     modal = setTimeout(() => {
         if(match.length === 8) {
@@ -133,6 +125,7 @@ function reModal() {
 }
 
 
+// This closes the popup
 function reCloseModal() {
     closeModal.addEventListener('click', () => {
         document.querySelector('.modal').classList.remove('visibility');
@@ -142,7 +135,7 @@ function reCloseModal() {
 reCloseModal();
 
 
-//if the cards do match, lock the cards in the open position
+// This deals with a successful match
 function reMatch() {
     clickedCards[0].classList.add('match');
     clickedCards[1].classList.add('match');
@@ -151,7 +144,7 @@ function reMatch() {
 }
 
 
-//if the cards do not match, remove the cards from the list and hide the card's symbol
+// This deals with an unsuccessful match
 function reNoMatch() {
     clickedCards[0].classList.add('nomatch');
     clickedCards[1].classList.add('nomatch');
@@ -166,14 +159,14 @@ function reNoMatch() {
 }
 
 
-//increment the move counter and display it on the page
+// This displays the number of player moves
 let reMoves = () => {
     moves.innerHTML = `Number of moves = ${1+count++}`;
     reStarRating();
 }
 
 
-//timer
+// Timer
 let reTimz = (() => {
     return () => {
         if(!launched) {
@@ -222,13 +215,14 @@ let reTimz = (() => {
 })();
 
 
+// This stops the timer above
 function reStopClock() {
     clearInterval(timer);
 }
 reStopClock()
 
 
-//star rating
+// This deals with the player' star rating
 function reStarRating() {
     if(count == 32) {
         three.classList.add('invisibility');
@@ -244,20 +238,21 @@ function reStarRating() {
 }
 
 
+// This restores the stars
 function reRemoveStarRating() {
     three.classList.remove('invisibility');
     two.classList.remove('invisibility');
 }
 
 
-//reset button
+// Reset button
 function reReset() {
     start_again.addEventListener('click', reStartAgain);
 }
 reReset();
 
 
-//replay button
+// Replay button
 function rePlayAgainBtn() {
     play_again.addEventListener('click', () => {
         document.querySelector('.modal').classList.remove('visibility');
@@ -267,6 +262,7 @@ function rePlayAgainBtn() {
 rePlayAgainBtn();
 
 
+// This resets everything
 function reStartAgain() {
    deck.innerHTML = '';
    displayCard();
@@ -304,7 +300,7 @@ function reStartAgain() {
 }
 
 
-//if all cards have matched, display a message with the final score
+// After all cards have been successfully matched this provides the performance summary on the final popup
 function reModalTimeMsg() {
     return  match.length === 8 && mins == 0 && secs > 0     ? document.querySelector('.popup-result').innerHTML = `You made ${count} moves in ${secs} seconds and got a ${stars_count}-star rating`
         :   match.length === 8 && mins == 1 && secs == 1    ? document.querySelector('.popup-result').innerHTML = `You made ${count} moves in ${mins} minute and ${secs} second and got a ${stars_count}-star rating`
