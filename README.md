@@ -2,9 +2,9 @@
 
 <img src="/img/Memory Game Screenshot.png" alt="screenshot of memory game" width="60%" height="60%">
 
-- The game consists of eight pairs of cards and your aim is to match each pair
-- The cards are shuffled and then distributed around the deck
-- Click on two cards to reveal their symbols:
+- The game consists of a grid of 16 cards: there are eight pairs and your aim is to match each pair
+- The cards are shuffled and then distributed, face-down, around the deck
+- Click on two cards at a time to reveal their symbols:
   - If they match then they'll turn green and stay revealed
   - If they don't then they'll flash red and then go blank again
 - There's a star rating based on how many moves you take to complete the game:
@@ -19,7 +19,7 @@ You can play the game by [clicking here][1] or by cloning/downloading this repos
 
 ## Development
 
-This game was one of my projects for my [Front End Developer Nanodegree][2] at [Udacity][3]. Udacity provided the game engine and resources and then I used my object-oriented JavaScript (OOJS) skills to make it work perfectly - you can see some of my code in the [app.js](js/app.js) file in this repository.
+This game was one of my projects for my [Front End Developer Nanodegree][2] at [Udacity][3]. The aim of the project was for students to use their HTML, CSS and JavaScript skills to build a complex application - you can see some of my code in the [app.js](js/app.js) file in this repository.
 
 Skills developed:
 
