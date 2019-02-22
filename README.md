@@ -12,3 +12,27 @@
   - Two stars (32 - 47 moves) 
   - One star (48 or more moves)
 - At the end of the game there'll be popup with a summary of your performance
+
+## Access and Installation
+
+You can play the game by [clicking here][1] or by cloning/downloading this repository and then opening the index.html file
+
+## Development
+
+This game was one of my projects for my [Front End Developer Nanodegree][2] at [Udacity][3]. Udacity provided the game engine and resources and then I used my object-oriented JavaScript (OOJS) skills to make it work perfectly - you can see some of my code in the [app.js](js/app.js) file in this repository.
+
+Skills developed:
+
+* [x] OOJS
+* [x] ES6 (especially the use of classes)
+* [x] DOM manipulation
+* [x] CSS styling
+* [x] Game development (especially 2D collision detection and keyboard control mechanisms)
+
+## License
+
+The contents of this repository are covered under the [MIT License](LICENSE)
+
+[1]:https://wlabi.github.io/Classic-Arcade-Game-Clone-Udacity-FEND/
+[2]:https://eu.udacity.com/course/front-end-web-developer-nanodegree--nd001
+[3]:https://eu.udacity.com/
