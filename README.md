@@ -3,7 +3,7 @@
 <img src="/img/Memory Game Screenshot.png" alt="screenshot of memory game" width="60%" height="60%">
 
 - The game consists of a grid of 16 cards: there are eight pairs and your aim is to match each pair
-- The cards are shuffled and then distributed, face-down, around the deck
+- The cards are shuffled and then distributed, face-down, on the grid
 - Click on two cards at a time to reveal their symbols:
   - If they match then they'll turn green and stay revealed
   - If they don't then they'll flash red and then go blank again
