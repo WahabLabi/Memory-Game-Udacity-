@@ -23,8 +23,9 @@ This game was one of my projects for my [Front End Developer Nanodegree][2] at [
 
 Skills developed:
 
-* [x] OOJS
-* [x] ES6 (especially the use of classes)
+* [x] DOM manipulation
+  * [x] OOJS
+  * [x] ES6 (especially the use of classes)
 * [x] DOM manipulation
 * [x] CSS styling
 * [x] Game development (especially 2D collision detection and keyboard control mechanisms)
