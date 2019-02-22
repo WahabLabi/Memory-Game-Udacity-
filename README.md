@@ -24,7 +24,7 @@ This was one of my projects for my [Front End Developer Nanodegree][2] at [Udaci
 Skills developed:
 
 * [x] Development strategy: breaking down and planning a project
-* [x] Use of JavaScript arrays
+* [x] Use of JavaScript arrays for data manipulation
 * [x] Use of JavaScript timing events (setTimeout() and setInterval())
 * [x] Use of Immediately Invoked Function Expressions
 * [x] Creation and use of modals/popups
