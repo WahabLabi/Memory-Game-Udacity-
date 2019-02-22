@@ -29,7 +29,7 @@ Skills developed:
 * [x] Use of Immediately Invoked Function Expressions
 * [x] Creation and use of modals/popups
 * [x] DOM manipulation:
-  * [x] Handling events
+  * [x] Listening for and then handling events
   * [x] Selecting and manipulating DOM elements
 * [x] Debugging
 
