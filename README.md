@@ -11,4 +11,4 @@
   - If you can complete the game in less than 32 moves then you'll get three stars
   - If you can complete the game in more than 32 moves but less than 48 moves then you'll get two stars
   - If it takes you more than 48 moves then you'll only get one star
-  
+- At the end of the game you'll get a summary popup
