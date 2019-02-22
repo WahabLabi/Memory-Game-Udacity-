@@ -23,12 +23,13 @@ This game was one of my projects for my [Front End Developer Nanodegree][2] at [
 
 Skills developed:
 
-* [x] DOM manipulation
-  * [x] OOJS
-  * [x] ES6 (especially the use of classes)
-* [x] DOM manipulation
-* [x] CSS styling
-* [x] Game development (especially 2D collision detection and keyboard control mechanisms)
+* [x] Development strategy: breaking down and planning a project
+* [x] Use of JavaScript arrays
+* [x] DOM manipulation:
+  * [x] Handling events
+  * [x] Selecting and manipulating DOM elements
+  * [x] DOM manipulation
+* [x] Debugging
 
 ## License
 
