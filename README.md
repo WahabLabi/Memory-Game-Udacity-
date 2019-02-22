@@ -1,6 +1,6 @@
 # Memory Game
 
-<img src="/img/Memory Game Screenshot.png" alt="screenshot of memory game" width="60%" height="60%">
+<img src="/img/Memory Game Screenshot.png" alt="screenshot of memory game" width="70%" height="70%">
 
 This is a really fun game!
 
