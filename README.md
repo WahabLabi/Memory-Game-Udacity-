@@ -30,7 +30,6 @@ Skills developed:
 * [x] DOM manipulation:
   * [x] Handling events
   * [x] Selecting and manipulating DOM elements
-  * [x] DOM manipulation
 * [x] Debugging
 
 ## License
