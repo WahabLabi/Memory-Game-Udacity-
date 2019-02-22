@@ -1,4 +1,6 @@
-Welcome to the MEMORY GAME!
+# Memory Game
+
+
 
 This is a really fun game!
 
