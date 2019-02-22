@@ -24,8 +24,8 @@ This game was one of my projects for my [Front End Developer Nanodegree][2] at [
 Skills developed:
 
 * [x] Development strategy: breaking down and planning a project
-* [x] JavaScript arrays
-* [x] JavaScript timing events (setTimeout() and setInterval())
+* [x] Use of JavaScript arrays
+* [x] Use of JavaScript timing events (setTimeout() and setInterval())
 * [x] Use of Immediately Invoked Function Expressions
 * [x] DOM manipulation:
   * [x] Handling events
