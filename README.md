@@ -19,7 +19,7 @@ You can play the game by [clicking here][1] or by cloning/downloading this repos
 
 ## Development
 
-This game was one of my projects for my [Front End Developer Nanodegree][2] at [Udacity][3]. The aim of the project was for students to use their HTML, CSS and JavaScript skills to build a complex application - you can see some of my code in the [app.js](js/app.js) file in this repository.
+This was one of my projects for my [Front End Developer Nanodegree][2] at [Udacity][3]. The aim of the project was for students to use their HTML, CSS and JavaScript skills to build a complex application - you can see some of my code in the [app.js](js/app.js) file in this repository.
 
 Skills developed:
 
