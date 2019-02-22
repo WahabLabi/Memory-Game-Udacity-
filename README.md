@@ -1,6 +1,6 @@
 # Memory Game
 
-<img src="">
+<img src="/img/Memory Game Screenshot.png">
 
 This is a really fun game!
 
