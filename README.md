@@ -27,6 +27,7 @@ Skills developed:
 * [x] Use of JavaScript arrays
 * [x] Use of JavaScript timing events (setTimeout() and setInterval())
 * [x] Use of Immediately Invoked Function Expressions
+* [x] Creation and use of modals/popups
 * [x] DOM manipulation:
   * [x] Handling events
   * [x] Selecting and manipulating DOM elements
