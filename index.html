@@ -7,16 +7,37 @@
     <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
     <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
     <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
 
     <div class="container">
         <header class="header">
-            <h1>Matching Game</h1>
+            <h1>Memory Game</h1>
         </header>
+        <section>
+            <p class="instructions disappearing">
+            (1) The game consists of a grid of 16 cards: there are eight pairs and your aim is to match each pair
+            <br>
+            (2) The cards are shuffled and then distributed, face-down, on the grid
+            <br>
+            (3) Click on two cards at a time to reveal their symbols:<br>
+                - If they match then they'll turn green and stay revealed<br>
+                - If they don't then they'll flash red and then go blank again
+            <br>
+            (4) There's a star rating based on how many moves you take to complete the game:<br>
+                - Three stars (less than 32 moves)<br>
+                - Two stars (32 - 47 moves)<br>
+                - One star (48 or more moves)
+            <br>
+            (5) At the end of the game there'll be popup with a summary of your performance
+            <br>
+            <button class="button"></button>
+            </p>
+        </section>
 
-        <section class="score-panel">
+        <section class="score-panel disappear">
             <span>
                 <ul class="stars invisibility"> Star rating =
                     <li><i class="fa fa-star one"></i></li>
