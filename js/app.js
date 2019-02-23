@@ -28,6 +28,7 @@ const three = document.querySelector('.three');
 const two = document.querySelector('.two');
 const start_again = document.querySelector('.restart');
 const play_again = document.querySelector('.button-close');
+const cloak = document.querySelector('.button');
 
 
 let clickedCards = [], match = [], launched = false, count = 0, secs = 0, mins = 0, hrs = 0, stars_count = 0;
@@ -311,3 +312,12 @@ function reModalTimeMsg() {
         :   match.length === 8 && mins >= 1 && secs > 0     ? document.querySelector('.popup-result').innerHTML = `You made ${count} moves in ${mins} minutes and ${secs} seconds and got a ${stars_count}-star rating`
         :   document.querySelector('.popup-result').innerHTML = '';
 }
+
+// This replaces the instructions with the star-rating, moves, timer and restart indicators after the start button is clicked
+function reVisibility() {
+    cloak.addEventListener('click', () => {
+        document.querySelector('.disappearing').classList.add('disappear');
+        document.querySelector('.score-panel').classList.remove('disappear');
+    });
+}
+window.onload = reVisibility();
