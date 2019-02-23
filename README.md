@@ -13,7 +13,7 @@
   - One star (48 or more moves)
 - At the end of the game there'll be popup with a summary of your performance
 
-You can play the game by [clicking here][1]
+[CLICK][1] to play
 
 ## Installation
 
