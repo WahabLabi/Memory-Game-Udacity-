@@ -8,11 +8,11 @@ This repository contains a version of Concentration, the card game
 
 ## Installation
 
-Clone/download this repository and then open the index.html file to play the game
+Clone or download this repository to your local machine
 
 ## Development
 
-This was one of my projects for my [Front End Developer Nanodegree][2] at [Udacity][3]. The aim of the project was for students to use their HTML, CSS and JavaScript skills to build a complex application - you can see some of my code in the [app.js](js/app.js) file in this repository.
+This game was built with HTML, CSS and JavaScript - you can see some of my code in the [app.js](js/app.js) file in this repository.
 
 Skills developed:
 
@@ -29,6 +29,10 @@ Skills developed:
 ## License
 
 The contents of this repository are covered under the [MIT License](LICENSE)
+
+## Acknowledgements
+
+This was one of my projects for my [Front End Developer Nanodegree][2] at [Udacity][3]. Udacity' lessons, code reviews and feedback were invaluable.
 
 [1]:https://wlabi.github.io/Memory-Game-Udacity-FEND/
 [2]:https://eu.udacity.com/course/front-end-web-developer-nanodegree--nd001
