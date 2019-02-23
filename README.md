@@ -13,9 +13,11 @@
   - One star (48 or more moves)
 - At the end of the game there'll be popup with a summary of your performance
 
-## Access and Installation
+You can play the game by [clicking here][1]
 
-You can play the game by [clicking here][1] or by cloning/downloading this repository and then opening the index.html file
+## Installation
+
+Clone/download this repository and then open the index.html file to play the game
 
 ## Development
 
