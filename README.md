@@ -1,5 +1,7 @@
 # Memory Game
 
+This repository contains a version of Concentration, the card game
+
 <img src="/img/Memory Game Screenshot.png" alt="screenshot of memory game" width="60%" height="60%">
 
 - The game consists of a grid of 16 cards: there are eight pairs and your aim is to match each pair
