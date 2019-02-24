@@ -25,7 +25,7 @@ Skills developed:
 * [x] DOM manipulation:
   * [x] Listening for and then handling events
   * [x] Selecting and manipulating DOM elements
-* [x] Use of Chrom DevTools
+* [x] Use of Chrome DevTools
 
 ## License
 
