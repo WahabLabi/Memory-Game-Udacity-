@@ -19,6 +19,7 @@ Skills developed:
 * [x] Development strategy: breaking down and planning a project
 * [x] Use of JavaScript arrays for data manipulation
 * [x] Use of JavaScript timing events (setTimeout() and setInterval())
+* [x] Use of callback functions
 * [x] Use of Immediately Invoked Function Expressions
 * [x] Creation and use of modals/popups
 * [x] DOM manipulation:
