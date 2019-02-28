@@ -32,7 +32,7 @@ The contents of this repository are covered under the [MIT License](LICENSE)
 
 ## Acknowledgements
 
-This was one of my projects for my [Front End Developer Nanodegree][2] at [Udacity][3]. Udacity' lessons, supporting material, code reviews and feedback were invaluable.
+This was the second major project for my [Front End Developer Nanodegree][2] at [Udacity][3]. Udacity' lessons, supporting material, code reviews and feedback were invaluable.
 
 [1]:https://wlabi.github.io/Memory-Game-Udacity-FEND/
 [2]:https://eu.udacity.com/course/front-end-web-developer-nanodegree--nd001
