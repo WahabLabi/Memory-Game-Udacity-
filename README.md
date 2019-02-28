@@ -12,9 +12,7 @@ Clone or download this repository to your local machine
 
 ## Development
 
-This game was built with HTML, CSS and JavaScript - you can see some of my code in the [app.js](js/app.js) file in this repository.
-
-Skills developed:
+This game was built with HTML, CSS and JavaScript - you can see my JavaScript code in the [app.js](js/app.js) file. In particular I used and further refined the following skills during the development of this game:
 
 * [x] Development strategy: breaking down and planning a project
 * [x] Use of JavaScript arrays for data manipulation
@@ -32,7 +30,7 @@ The contents of this repository are covered under the [MIT License](LICENSE)
 
 ## Acknowledgements
 
-This was the second major project for my [Front End Developer Nanodegree][2] at [Udacity][3]. Udacity' lessons, supporting material, code reviews and feedback were invaluable.
+This was the second major project for my [Front End Developer Nanodegree][2] at [Udacity][3]. Udacity' lessons, resources, code reviews and feedback were invaluable.
 
 [1]:https://wlabi.github.io/Memory-Game-Udacity-FEND/
 [2]:https://eu.udacity.com/course/front-end-web-developer-nanodegree--nd001
