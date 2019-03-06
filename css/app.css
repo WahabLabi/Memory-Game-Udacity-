@@ -250,8 +250,8 @@ h1 {
 }
 
 .header {
-    font-family: 'Bungee Inline', cursive;
-    /*font-family: 'Vast Shadow', cursive;
-    font-family: 'Bungee Shade', cursive;*/
-
+    font-family: 'Bungee Shade', cursive;
+    font-size: 50px;
+    margin-bottom: 5px;
+    margin-top: 3px;
 }
