@@ -4,7 +4,7 @@ This repository contains a version of Concentration, the card game
 
 <img src="/img/Memory-game-screenshot.png" alt="screenshot of memory game" width="100%" height="100%">
 
-[CLICK][1] to play
+[PLAY][1]
 
 ## Installation
 
