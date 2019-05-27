@@ -1,6 +1,6 @@
 # Memory Game
 
-This repository contains a version of Concentration, the card game
+This repository contains a web page version of Concentration, the card game
 
 <img src="/img/Memory-game-screenshot.png" alt="screenshot of memory game" width="100%" height="100%">
 
